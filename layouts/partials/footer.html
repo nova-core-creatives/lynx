@@ -11,7 +11,7 @@
       {{- end }}
     </p>
     {{/* Theme attribution */}}
-    {{ if .Site.Params.attribution | default true }}
+    {{ if .Site.Params.attribution | default false }}
       <p class="text-xs text-neutral-300 dark:text-neutral-600">
         {{ $hugo := printf `<a class="hover:underline hover:underline-primary-300 hover:text-primary-400"
           href="https://gohugo.io/" target="_blank" rel="noopener noreferrer">Hugo</a>`

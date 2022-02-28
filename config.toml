@@ -2,8 +2,8 @@
 languageCode = "en"
 defaultContentLanguage = "en"
 
-title = "Lynx"
-# copyright = "Copy, _right?_ :thinking_face:"
+title = "NovaCore"
+copyright = "All Rights Reserved NovaCore:copyright:2022"
 
 enableEmoji = true
 disableKinds = ["taxonomy", "term"]
@@ -13,21 +13,21 @@ disableKinds = ["taxonomy", "term"]
   # image = "img/author.jpg"  # path relative to static directory
 
   links = [
-    # { email = "mailto:hello@your_domain.com" },
-    # { link = "https://link-to-some-website.com/" },
+    { link = {href = "https://novacore.info", text = "Website" }},
+    { email = "mailto:admin@novacore.info" },
     # { amazon = "https://www.amazon.com/hz/wishlist/ls/wishlist-id" },
     # { apple = "https://www.apple.com" },
     # { codepen = "https://codepen.io/username" },
     # { dev = "https://dev.to/username" },
-    # { discord = "https://discord.gg/invitecode" },
+    { discord = "https://discord.gg/invitecode" },
     # { dribbble = "https://dribbble.com/username" },
     # { facebook = "https://facebook.com/username" },
     # { flickr = "https://www.flickr.com/photos/username/" },
     # { foursquare = "https://foursquare.com/username" },
-    # { github = "https://github.com/username" },
+    { github = "https://github.com/username" },
     # { gitlab = "https://gitlab.com/username" },
     # { google = "https://www.google.com/" },
-    # { instagram = "https://instagram.com/username" },
+    { instagram = "https://instagram.com/username" },
     # { keybase = "https://keybase.io/username" },
     # { kickstarter = "https://www.kickstarter.com/profile/username" },
     # { lastfm = "https://lastfm.com/user/username" },
@@ -35,7 +35,7 @@ disableKinds = ["taxonomy", "term"]
     # { mastodon = "https://mastodon.instance/@username" },
     # { medium = "https://medium.com/username" },
     # { microsoft = "https://www.microsoft.com/" },
-    # { patreon = "https://www.patreon.com/username" },
+    { patreon = "https://www.patreon.com/username" },
     # { pinterest = "https://pinterest.com/username" },
     # { reddit = "https://reddit.com/user/username" },
     # { slack = "https://workspace.url/team/userid" },
@@ -46,7 +46,7 @@ disableKinds = ["taxonomy", "term"]
     # { tiktok = "https://tiktok.com/@username" },
     # { tumblr = "https://username.tumblr.com" },
     # { twitch = "https://twitch.tv/username" },
-    # { twitter = "https://twitter.com/username" },
+    { twitter = "https://twitter.com/username" },
     # { whatsapp = "https://wa.me/phone-number" },
     # { youtube = "https://youtube.com/username" },
   ]
