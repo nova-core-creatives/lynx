@@ -4,15 +4,17 @@
       {{ with .Site.Author.image }}
         <img class="mb-2 rounded-full w-36 h-36" src="{{ . | relURL }}" />
       {{ end }}
-      <h1 class="text-4xl font-extrabold dark:text-white">
-        {{ .Params.title | default .Site.Author.name | default .Site.Title | emojify }}
-      </h1>
+
+      <img src={{ "logo.png" | relURL }}>
+
       {{ with .Content }}
         <section class="pt-5 prose dark:prose-light">{{ . | emojify }}</section>
       {{ end }}
     </header>
+
     {{ with .Site.Author.links }}
       <div class="flex flex-col flex-wrap min-w-full mt-4 sm:min-w-0">
+
         {{ range $links := . }}
           {{ range $type, $data := $links }}
             {{ $href := $data }}
@@ -44,4 +46,5 @@
       </div>
     {{ end }}
   </article>
+    <canvas id="c"></canvas>
 {{ end }}
