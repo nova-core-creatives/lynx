@@ -14,6 +14,7 @@ disableKinds = ["taxonomy", "term"]
 
   links = [
     { link = {href = "https://novacore.info", text = "Website" }},
+    { blog-solid = {href = "https://novacore.info/blog", text= "Recent Posts"}}
     { email = "mailto:contact@novacore.info" },
     { facebook = "https://www.facebook.com/NovaCoreSMB" },
     { instagram = "https://instagram.com/novacore_smb" },

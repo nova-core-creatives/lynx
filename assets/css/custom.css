@@ -17,6 +17,16 @@
     rgba(59, 156, 217, 1) 100%
   );
 }
+.link-blog-solid{
+  background: rgb(6, 2, 74);
+  background: linear-gradient(
+    90deg,
+    rgba(223, 191, 128, 1) 0%,
+    rgba(133, 168, 158, 1) 50%,
+    rgba(141, 119, 171, 1) 100%
+
+  );
+}
 
 .link-email{
   background: rgb(142, 120, 173);
